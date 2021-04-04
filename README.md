@@ -7,6 +7,7 @@ TickRateMod -- My mod to add a gamerule which speeds up the game. Copy into the 
 
 ### Using mcram
 After compiling (with gcc or any other compiler), run "mcram [YOUR 16 BYTE BINARY FILE] [MINECRAFT WORLD DIRECTORY]/datapacks/utils/data/utils/functions/write.mcfunction".
+I have provided an example program called fibonacci.bin which lists the Fibonacci numbers on the display (in hex).
 
 ### Installing the Tick Rate Mod
 Since the computer is a bit too slow, it really helps to speed up the process.
@@ -14,3 +15,6 @@ To install this mod, copy the folder to the .minecraft/versions folder. In the l
 Now, go to the Play tab and start.
 
 IMPORTANT: If the game crashes when you hit Play, you are most likely using the wrong Java version. Click "More Options" in the installation settings and change the Java executable to Java 11. In my case (Arch Linux), it is set to "/usr/lib/jvm/java-11-openjdk/bin/java".
+
+### Using the Tick Rate Mod
+To speed up the game, type "/gamerule gameTickSpeed [period]". The default period is 50 (ms), and it can be reduced to speed up the game.
